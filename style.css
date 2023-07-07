@@ -1,0 +1,55 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(28, 133, 219);
+    font-size: 100%;
+    align-items: center;
+}
+
+.cabecalho {
+    font-family: 'Times New Roman', Times, serif;
+    border-top: 0.4px black;
+    display: block;
+    height: 95px;
+   
+}
+
+.cabecalho-img {
+   float: left;
+}
+
+.cabecalho-texto {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.duasimagens {
+    width: 50%;
+}
+
+.umaimagem {
+    width: 100%;
+}
+
+.container p {
+    width: 350px;
+}
+
+.container div {
+    width: 40%;
+}
+
+footer {
+    background-color: blue;
+    text-align: center;
+}
